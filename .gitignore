@@ -1,4 +1,24 @@
-node_modules/
-dist/
-.env
+# VS Code
 .vscode/
+
+# Vite cache
+.vite/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+backend/.env
+
+# SQLite (optional)
+# backend/database.db
